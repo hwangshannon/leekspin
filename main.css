@@ -1,0 +1,27 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: bold 18px "Georgia Condensed", serif;
+	text-align: center;
+	color: #fff;
+    background-color: #000000;
+    page-break-after: always;
+}
+
+.bg {
+    /* The image used */
+    background-image: "leek.gif";
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+div{
+    height: 0;
+}
