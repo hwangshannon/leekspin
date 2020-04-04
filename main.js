@@ -11,10 +11,10 @@ function timer() {
 $(function() {
 	var playing = false;
 	var audio = new Audio()
-	audio.autoplay = true;
 	audio.loop = true;
-
-	audio.src = audio.canPlayType('audio/wav') ? 'leekspin.wav' : 'leekspin.ogg';
+	audio.src = audio.canPlayType('audio/mp3') ? 'leekspin.mp3' : 'leekspin.ogg';
+	audio.play();
+	
 	// audio.addEventListener('timeupdate', function(){
 	// 	var buffer = .5
 	// 	if(this.currentTime > this.duration - buffer){
